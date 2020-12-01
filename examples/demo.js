@@ -11,8 +11,7 @@
  * @Description : ...
  */
 
-const { cvx } = require('./cvx');
 
-module.exports = {
-  cvx,
-};
+const { cvx } = require('../lib/index')
+
+console.log(cvx)
