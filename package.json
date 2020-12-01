@@ -1,0 +1,29 @@
+{
+  "name": "zacard-cvx",
+  "version": "1.0.0",
+  "description": "convert tree xlsx import into vxe-grid metadata",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "xlsx": "0.15.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zacard-orc/cvx.git"
+  },
+  "keywords": [
+    "vxe",
+    "vxe-grid",
+    "xlsx",
+    "tree",
+    "treenode"
+  ],
+  "author": "13816025562@139.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zacard-orc/cvx/issues"
+  },
+  "homepage": "https://github.com/zacard-orc/cvx#readme"
+}
