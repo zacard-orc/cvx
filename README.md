@@ -8,7 +8,7 @@ convert tree xlsx import into vxe-grid metadata
 
 # Install
 ```text
-yarn add cvx
+yarn add zacard-cvx
 ```
 
 # How to use
