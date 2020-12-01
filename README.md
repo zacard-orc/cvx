@@ -16,6 +16,30 @@ import { cvx } from 'cvx';
    <input type="file" @change="importDataEvent" accept=".xls,.xlsx,.csv">
 </vxe-button>
 
+<vxe-grid
+      ref="xTable"
+      highlight-current-row
+      :mouse-config="{selected: true}"
+      :keyboard-config="{isArrow: true, isDel: true, isEnter: true, isTab: true, isEdit: true}"
+      :edit-config="{trigger: 'dblclick', mode: 'cell'}"
+      :checkbox-config="{range: true}"
+      :columns="tableColumnDef"
+      :data="tableData"
+      :tree-config="{children: 'children'}"
+    >
+</vxe-grid>
+
+// data定义
+tableColumnDef: [
+        { field: 'seqId', title: '编号', treeNode: true },
+        { field: '零件名称', title: '零件名称' },
+        { field: '材料', title: '材料' },
+        { field: '工艺', title: '工艺' },
+        { field: '单件重量', title: '单件重量' },
+        { field: '角色', title: '角色' },
+        { field: '日期', title: '日期' }
+]
+
 const mockVueMehtods = {
   importDataEvent (evnt) {
       cvx(evnt, this, {
