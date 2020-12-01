@@ -9,6 +9,19 @@
   "dependencies": {
     "xlsx": "0.15.6"
   },
+  "directories": {
+    "examples": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.17.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zacard-orc/cvx.git"
