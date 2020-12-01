@@ -47,6 +47,9 @@ const mockVueMehtods = {
  * @param {boolean} opt.tree 是否树形目录
  */
 ```
+```markdown
+也可以参考 vxe_hello 项目
+```
 
 ## cvx promise return
 ```markdown
