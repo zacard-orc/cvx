@@ -1,4 +1,4 @@
-[!npm version](https://img.shields.io/npm/v/zacard-cvx.svg?style=flat-square)](https://www.npmjs.com/package/zacard-cvx)
+[![npm version](https://img.shields.io/npm/v/zacard-cvx.svg?style=flat-square)](https://www.npmjs.com/package/zacard-cvx)
 [![npm downloads](https://img.shields.io/npm/dm/zacard-cvx.svg?style=flat-square)](http://npm-stat.com/charts.html?package=zacard-cvx)
 [![npm license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 
