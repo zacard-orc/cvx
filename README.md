@@ -16,7 +16,7 @@ yarn add zacard-cvx
 参考examples/AppImp.vue
 ```
 ```javascript
-import { cvx } from 'cvx';
+import { cvx } from 'zacard-cvx';
 
 <vxe-button>
    <input type="file" @change="importDataEvent" accept=".xls,.xlsx,.csv">
