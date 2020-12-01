@@ -2,7 +2,7 @@
   "name": "zacard-cvx",
   "version": "1.0.0",
   "description": "convert tree xlsx import into vxe-grid metadata",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
