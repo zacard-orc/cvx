@@ -12,8 +12,10 @@ yarn add cvx
 ```
 
 # How to use
+```markdown
+参考examples/AppImp.vue
+```
 ```javascript
-// 参考examples/AppImp.vue
 import { cvx } from 'cvx';
 
 <vxe-button>
