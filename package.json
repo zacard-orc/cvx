@@ -29,9 +29,12 @@
   "keywords": [
     "vxe",
     "vxe-grid",
+    "vxe-table",
     "xlsx",
+    "csv",
     "tree",
-    "treenode"
+    "treenode",
+    "event"
   ],
   "author": "13816025562@139.com",
   "license": "ISC",
