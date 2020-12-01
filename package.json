@@ -10,7 +10,6 @@
     "xlsx": "0.15.6"
   },
   "directories": {
-    "examples": "examples",
     "lib": "lib",
     "test": "test"
   },
