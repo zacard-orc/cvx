@@ -3,3 +3,5 @@ test
 logs
 build
 dist
+.idea
+.vscode
