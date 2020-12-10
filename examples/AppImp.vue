@@ -159,6 +159,7 @@
       },
       importDataEvent (evnt) {
         cvx(evnt, this, {
+          colDef: this.tableColumnDef,
           tree: false
         })
           .then(res => {

@@ -49,6 +49,7 @@ tableColumnDef: [
 const mockVueMehtods = {
   importDataEvent (evnt) {
       cvx(evnt, this, {
+        colDef: this.tableColumnDef,
         tree: true
       })
         .then(res => {
@@ -86,6 +87,9 @@ const mockVueMehtods = {
 res.headArr {array<string|any>} 列表头（数组形式）
 res.headMap {object<string,string|any>} 列表头（字典形式）
 res.tableData {array<object|any>} 格式化后的数组
+res.hitResult {object[string,Array]} 匹配字段的结果
+res.hitResult.hitCol {Array<string>} 匹配字段的结果，命中的
+res.hitResult.unhitCol {Array<string>} 匹配字段的结果，未命中的
 
 注意：当导入的是数组元素，会去tableData中第一列元素作为编号，同时每个元素都会有个seqId字段用来新编号,但同时保留了原编号供使用
 
